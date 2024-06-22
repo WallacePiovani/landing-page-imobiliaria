@@ -1,0 +1,92 @@
+
+.navbar{
+    background-color: #334659;
+}
+
+.nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover{
+    color: #fff;
+}
+.navbar-toggler{
+    background-color: #fff;
+}
+
+.hero-section{
+    height: 85vh;
+    user-drag: none;  
+    background-image: url("images/buildings-1842205_1280.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-x:hidden;
+
+}
+
+
+.main-text{
+    font-size: 5rem;
+    color: #fff;
+}
+
+.card-title{
+    font-size: 1.3em;
+}
+
+#imoveis img{
+    height: 250px;
+}
+
+#imoveis nav button{
+    color: #212529;
+}
+.imobiliaria_img{
+    height: 450px;
+}
+
+#imoveis .nav .nav-link.active{
+    background-color: #334659;
+    color: #fff;
+}
+
+#header .nav .nav-link.active{
+    background-color: #fff;
+    color: #334659;
+}
+
+.social-links{
+    list-style: none;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links a{
+    text-decoration: none;
+}
+
+.social-links i{
+    color: #334659;
+}
+
+.footer{
+    background-color: #212529;
+    padding: 2em;
+    color: #fff;
+    text-align: center;
+}
+
+@media (max-width:760px) {
+
+    .main-text{
+        font-size: 3rem;
+        color: #fff;
+    }
+    .hero-section{
+        height: 100vh;
+    }
+}
